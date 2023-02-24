@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <script src='./script.js'></script>
+    <script src="./script.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -28,7 +29,16 @@
     <title>React App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+      <img alt="" class="image" src="assets/1.jpeg" draggable="false" />
+      <img alt="" class="image" src="assets/2.jpeg" draggable="false" />
+      <img alt="" class="image" src="assets/3.jpeg" draggable="false" />
+      <img alt="" class="image" src="assets/4.jpeg" draggable="false" />
+      <img alt="" class="image" src="assets/5.jpeg" draggable="false" />
+      <img alt="" class="image" src="assets/6.jpeg" draggable="false" />
+      <img alt="" class="image" src="assets/7.jpeg" draggable="false" />
+      <img alt="" class="image" src="assets/8.jpeg" draggable="false" />
+    </div>
     <div id="root"></div>
     <!--
       This HTML file is a template.
